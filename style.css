@@ -1,0 +1,296 @@
+/* StyleSheet= eBay listing */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap');
+
+
+
+/*Set document fonts*/
+
+p, ul {
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-weight: bold ;
+}
+
+#headline h1 {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: bold;
+
+}
+
+#headline h2 {
+	font-weight: 30px;
+}
+
+/*Pagewrap*/
+
+#pagewrap {
+  margin: 0;
+  padding: 0;
+  align: centre;
+  display: block;
+}
+
+/*Headline Min Height*/
+
+#headline {
+	width: 100%;
+	min-height: auto;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 2rem;
+	background: #F6F6F6;
+	overflow: hidden;
+}
+
+#headline .heroimage {
+	padding: 1rem;
+}
+
+#serviceicons .fas {
+	font-size: 44px;
+}
+
+#serviceicons {
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	}
+
+#serviceicons .content{
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
+
+}
+
+#description {
+	padding-left: 2rem;
+	padding-right: 5rem;
+	margin-bottom: 2rem;
+}
+
+#description i {
+font-size: 44px;
+margin: 0.5rem;
+
+}
+
+#specification {
+	padding-left: 2rem;
+	margin-top: 2rem;
+}
+
+#specification .content{
+margin-bottom: 2rem;
+	text-align: left;
+}
+
+#specification .content > ul{
+	list-style-position: outside;
+	padding-left: 1.5rem;
+}
+
+/*Warranty*/
+
+#warranty {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+/*Delivery*/
+
+#delivery {
+	padding-left: 2rem;
+	padding-right: 5rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+/*Support*/
+#support {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+#support .content {
+	padding-left: 2rem;
+	padding-right: 4rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	}
+
+#support .content > i {
+	font-size: 28px;
+	padding: 1rem;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+/*Intro Style*/
+#headline {
+	float: left;
+
+}
+
+#headline .heroimage {
+	float: left;
+	margin-left: 50px;
+}
+
+#headline .productinfo {
+	float: left;
+	width: 35%;
+}
+
+
+
+#headline:after {
+	clear: both;
+}
+
+/*Services Style*/
+
+#serviceicons {
+	float: left;
+}
+
+#serviceicons .content{
+	float: left;
+}
+
+#serviceicons .serviceinfo {
+	float: left;
+}
+
+#serviceicons .fas {
+	float: left;
+	margin-right: 15px;
+	padding-top: 15px;
+	text-align: left;
+}
+
+#serviceicons:after {
+	clear: both;
+}
+
+/*Description Style*/
+
+#description {
+	float: left;
+}
+
+#description .column{
+	float: left;
+	width: 30%;
+}
+
+#description .right{
+	margin-left: 60px;
+	float: left;
+}
+
+#description .right p{
+	margin-top: 1.5rem;
+}
+
+#description i {
+	float: left;
+}
+
+#description:after {
+	clear: both;
+}
+
+/*Specification Floats*/
+
+
+#specification .content{
+	float: left;
+	width: 30%;
+}
+
+#specification div:after {
+	clear: both;
+}
+
+#support .benefits {
+	float: left;
+}
+
+#support .content {
+	float: left;
+	width: 25%;
+}
+
+#support .content > i {
+	float: left;
+}
+
+#support div:after {
+	clear: both;
+}
+
+}
+
+/*Media Query Smaller Screens*/
+@media screen and (max-width: 1160px) {
+
+#image2 {
+	visibility: hidden ;
+}
+
+
+
+
+
+
+
+
+
+
+/*#serviceicons .content{
+	float: ;
+
+}*/
+
+
+
+
+
+
+
