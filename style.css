@@ -222,8 +222,8 @@ margin-bottom: 2rem;
 
 #specification .content{
 	float: left;
-	width: 30%;
-	margin-right: 2rem;
+	width: 25%;
+	padding-right: 2rem;
 }
 
 #specification div:after {
