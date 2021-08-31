@@ -47,17 +47,14 @@ h4 {
 
 /*Pagewrap*/
 
-#pagewrap {
+/*#pagewrap {
   margin: 0;
   padding: 0;
-  align: centre;
-  display: block;
-}
+}*/
 
 /*Headline Min Height*/
 
 #headline {
-	width: 100%;
 	min-height: auto;
 	padding-left: 2rem;
 	padding-right: 2rem;
@@ -67,7 +64,8 @@ h4 {
 }
 
 #headline .heroimage {
-	padding: 1rem;
+	padding-left: 0rem;
+	padding-right: 1rem;
 }
 
 #serviceicons .fas {
@@ -142,14 +140,13 @@ margin-bottom: 2rem;
 
 #support .content {
 	padding-left: 2rem;
-	padding-right: 4rem;
+	padding-right: 2rem;
 	padding-top: 1rem;
-	padding-bottom: 1rem;
 	}
 
 #support .content > i {
 	font-size: 28px;
-	padding: 1rem;
+	padding: 0.5rem;
 }
 
 
@@ -273,24 +270,3 @@ margin-bottom: 2rem;
 #image2 {
 	visibility: hidden ;
 }
-
-
-
-
-
-
-
-
-
-
-/*#serviceicons .content{
-	float: ;
-
-}*/
-
-
-
-
-
-
-
