@@ -18,6 +18,7 @@ a {
   --tertiary: #3B217C;
   --cta: #CA1717;
   --intros: #D1D1D1;
+  --subtitle: #8d8a8a;
 
 
   /*Font-family*/
@@ -149,7 +150,7 @@ body {
 	
 	font-size: 1em;
 	font-weight: var(--regular);
-	color: var(--intros);
+	color: var(--subtitle);
 	margin-bottom: 1em;
 }
 
@@ -177,7 +178,7 @@ body {
 
 .product-card-b {
 	width: 450px;
-	height: 420px;
+	height: auto;
 	margin: 2em;
 	box-shadow: var(--card-shadow);
 	border-radius: 5px;
@@ -333,10 +334,9 @@ body {
 
 	.header {
 		width: 100%;
-		padding: 3em 2em;
+		padding: 2em 5em;
 
 		display: flex;
-		grid-gap: 1em;
 		flex-wrap: wrap;
 
 		
@@ -345,15 +345,15 @@ body {
 	}
 
 	.cta-button-wrapper {
-		flex: 1 1 0%;
+		flex: 1 1 10%;
 	}
 
 	.navbar {
-		flex: 1 1 33%;
+		flex: 1 1 25%;
 	}
 
 	.logoimg {
-		flex: 1 1 0%;
+		flex: 1 1 30%;
 	}
 
 
