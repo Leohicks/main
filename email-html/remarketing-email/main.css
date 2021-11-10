@@ -1,0 +1,255 @@
+	/*padding should be declared all around not just once*/
+
+* {
+	font-family: sans-serif;
+}
+body {
+	Margin: 0;
+	padding: 0;
+}
+
+table {
+	border-spacing: 0;
+}
+td {
+	padding: 0;
+}
+img {
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.tel{
+	color: #25245E!important;
+	padding: 0px!important;
+}
+
+@media screen and (max-width: 600px) { 
+}
+@media screen and (max-width: 400px) { 
+}
+
+body {
+	background-color: #f6f9fc;
+}
+
+.wrapper {
+	width: 100%;
+	table-layout: fixed;
+	background-color: #f6f9fc;
+	padding-bottom: 40px;
+}
+
+.webkit {
+	max-width: 600px;
+	background-color: #ffffff;
+}
+
+.outer {
+	Marin:  0 auto;
+	width: 100%;
+	max-width: 600px;
+	border-spacing: 0;
+	font-family: sans-serif;
+	color: #4A4A4A;
+}
+
+.message {
+	line-height: 1.2;
+}
+
+.calendly {
+	color: #25245E;
+	font-weight: bold;
+	padding: 0;
+}
+
+.row {
+	width: 100%;
+	padding: 20px 50px;
+}
+
+.image {
+	width: 25%;
+	text-align: center;
+
+}
+
+.workshop-text {
+/*	color: white;
+	*/
+}
+
+.the-image {
+	width: 150px;
+	border-radius: 100%;
+	outline: 5px solid #8EA0E0;
+
+}
+
+.the-text {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+
+.content-section {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.three-rows h2{
+	font-size: 24px;
+	line-height: 20px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.pdf-button {
+	width: 100%;
+	text-align: center;
+
+}
+
+.link-text {
+	background-color: #25245E;
+	width: 200px;
+	display: block;
+	margin:  20px auto;
+	padding: 10px 0;
+	border-radius: 5px;
+
+}
+
+.the-heading {
+	width: 100%;
+	text-align: center;
+	padding: 100px 0px;
+}
+
+.map {
+	width: 50%;
+}
+
+.find-us {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.the-address {
+	width: 80%;
+	text-align: left;
+	vertical-align: top;
+	padding-bottom: 50px;
+}
+.the-map {
+	width: 200px;
+	outline: 3px solid white;
+}
+
+.direction-button {
+	background-color: #25245E;
+	border-style: none;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 0;
+}
+
+.rig-cards {
+	background-color: #DADFF4;
+	width: 100%;
+	padding: 50px 10px;
+}
+
+.product-card {
+	width: 180px;
+}
+
+.product-card {
+	background-color: white;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 10px;
+
+}
+
+.product-title {
+	background-color: #36D17D;
+	border-radius: 10px 10px 0 0 ;
+	padding: 10px 0px;
+	
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.product-subheading {
+	background-color: #36D17D;
+	padding: 10px 0px;
+}
+
+.product-details {
+	padding: 10px;
+	border-bottom: 1px solid darkblue;
+	font-size: 14px;
+}
+
+.product-price {
+	padding: 20px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.product-cta {
+	padding: 0 0 10px 0;
+	border-radius: 0 0 10px 10px;
+/*	background-color: red;*/
+}
+
+.recommended {
+	border-radius: 10px 10px 0 0 ;
+	/*background-color: red;*/
+	background-color: rgb(30,206,130);
+	padding: 10px 0;
+	font-weight: bold;
+}
+
+.middle .product-title {
+	border-radius: 0;
+}
+
+.middle .product-card {
+	border: 2px solid lightgreen;
+}
+
+.cta-button {
+	background-color: none;
+}
+
+.product-cta > a > button {
+	background-color: white;
+	color: rgb(30,206,130);
+	border: 2px solid rgb(30,206,130);
+}
+
+.product-price-custom {
+	font-size: 20px;
+	padding: 20px;
+	font-weight: bold;
+}
+
+.socials {
+	width: 30%;
+	text-align: center;
+	margin: 0 auto;
+}
+
